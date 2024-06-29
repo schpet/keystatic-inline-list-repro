@@ -1,0 +1,15 @@
+---
+interface Props {
+  emotion: string;
+}
+
+const { emotion } = Astro.props;
+---
+
+<span class="emo">{emotion}</span>
+
+<style>
+  .emo {
+    color: gold;
+  }
+</style>
